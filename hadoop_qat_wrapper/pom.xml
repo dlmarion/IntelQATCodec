@@ -46,20 +46,22 @@
       <groupId>org.apache.hadoop</groupId>
       <artifactId>hadoop-common</artifactId>
       <scope>compile</scope>
-      <version>2.6.0-cdh5.14.2</version>
+      <version>3.0.0</version>
+<!--
       <exclusions>
          <exclusion>
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
          </exclusion>
       </exclusions>
+-->
     </dependency>
     <dependency>
       <groupId>org.apache.hadoop</groupId>
       <artifactId>hadoop-common</artifactId>
       <scope>test</scope>
       <type>test-jar</type>
-      <version>2.6.0-cdh5.14.2</version>
+      <version>3.0.0</version>
       <exclusions>
         <exclusion>
            <groupId>log4j</groupId>
